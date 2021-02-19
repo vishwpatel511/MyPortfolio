@@ -1,0 +1,77 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="COMP229_S2016_Lesson2.Site" %>
+
+<!DOCTYPE html>
+<html lang= "en">
+<head runat="server">
+    <meta charset="utf-8"/>
+    <meta name="viewport" content ="width=device-width, initial-scale=1"/>
+    
+    <!-- CSS section -->
+    <link href="Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="Content/font-awesome.min.css" rel="stylesheet" />
+    <link href="Content/app.css" rel="stylesheet" />
+
+</head>
+
+<body>
+<form id="form1" runat="server">
+    <nav class="navbar navbar-expand-lg navbar-light" style= "color: white; " >
+    
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+  
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <div id="Home">
+                    <li class="nav-item" runat="server">
+                    <a class="nav-link" runat="server" style="color: whitesmoke" href="Home.aspx"><i class="fa fa-home fa-lg"></i>  Home <span class="sr-only">(current)</span></a>
+                </li>
+                </div>
+                <div id="About">
+                <li class="nav-item" ID = "About" runat="server">
+                    <a class="nav-link" id="About" style="color: whitesmoke" href="About.aspx"><i class="fa fa-info fa-lg"></i>  About</a>
+                </li>
+                </div>
+                <div id="Projects">
+                <li class="nav-item" id = "Projects" runat="server">
+                <a class="nav-link" id="Projects" style="color: whitesmoke" href="Projects.aspx"><i class="fa fa-th fa-lg"></i>  Projects</a></li>
+                </div>
+                <div id="Contact">
+                <li class="nav-item" id = "Contact" runat="server">
+                    <a class="nav-link" id="Contact" style="color: whitesmoke" href="contact.aspx"><i class="fa fa-phone fa-lg"></i>  Contact</a>
+                </li>
+                </div>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                
+                    <a class="nav-link" style="color: whitesmoke" href="https://github.com/vishwpatel511" id = "github"><i class="fa fa-github fa-lg"></i>  <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" style="color: whitesmoke" href="https://www.facebook.com/Vishwpatel511" id = "facebook"><i class="fa fa-facebook fa-lg"></i>  <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" style="color: whitesmoke" href="https://www.linkedin.com/in/vishw-patel-28b19a133/" id = "linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i>  <span class="sr-only">(current)</span></a>
+                    
+                   
+            </ul>
+        </div>
+    </nav>
+
+    <div>
+    </div>
+
+<main>
+    <asp:ContentPlaceHolder ID="MainContent" runat="server">
+    </asp:ContentPlaceHolder>
+</main>
+
+<!-- footer -->
+<div class="footer">
+    <p>&copy; 2021 Vishw Patel - All Rights Reserved</p>
+</div>   
+<!-- JavaScript Section-->
+<script src="Scripts/jquery-3.5.1.min.js"></script>
+<script src="Scripts/bootstrap.min.js"></script>
+<script src="Scripts/app.js"></script>
+
+
+</form>
+</body>
+</html>
