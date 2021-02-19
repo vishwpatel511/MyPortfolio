@@ -7,9 +7,7 @@
         <h5> * Please use the Project ID provided to you. If you don't have or misplaced contact us to get the new one.</h5>
         <div class="row">
             <div class="col-md-offset-2 col-md-10">
-                
-               
-                
+
                 <br />
                 <form class="form-inline">
                     <div class="form-group">

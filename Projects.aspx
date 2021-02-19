@@ -21,7 +21,7 @@
                     </Columns>
 
                     </asp:GridView>
-                 <p id ="AddProject">Want to list a project I worked for/with you?  <a href="AddProject.aspx" class="btn btn-success btn-sm">
+                 <p id ="AddProject">Want to list a project I worked for/with you?  <a href="AddProject.aspx" class="btn btn-success btn-sm LoginPopup" runat="server">
                         <i class="fa fa-plus">Add project</i>
                     </a></p>
                     <br><br>
