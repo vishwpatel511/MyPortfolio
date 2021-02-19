@@ -1,0 +1,59 @@
+﻿/* 
+    Custom CSS goes here
+*/
+
+body {
+    background-image: url('../Assets/images/bg-img.jpg');
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 100%;
+    width: 100%;
+    background: transparent;
+    color: snow;
+    text-align: center;
+}
+#ContactForm {
+    color:snow;
+}
+
+tr:nth-child(even) {
+    background-color: #2C3E4C;
+    color: snow;
+}
+
+tr:nth-child(odd) {
+
+                  background-color: #59788E;
+                  color: snow;
+}
+
+table {
+    padding-top: 25px;
+}
+
+#AddProject {
+    color: ghostwhite;
+}
+
+h1, label {
+
+    color: snow;
+}
+
+h5 {
+    color: snow;
+    font-weight: normal;    
+}
+
+.control-label {
+
+    color: snow;
+}
+
+.centered_div {
+    margin: 0 auto;
+    width: 50%;
+}
