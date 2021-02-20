@@ -43,73 +43,95 @@ h1, label {
     color: snow;
 }
 
-h5 {
+h5,h4, h6 {
     color: snow;
     font-weight: normal;    
 }
 
-.control-label {
+.loginLabel {
 
     color: snow;
+    text-align: center;
+    text-decoration: snow;
 }
 
+.control-label {
+    color: snow;
+}
+.secondCard {
+    
+    margin-left: 120px;
+}
 .centered_div {
     margin: 0 auto;
     width: 50%;
 }
-#loginform {
-    width: 500px;
-    height: 330px;
-    margin-top: 100px;
-    background-color: #585858;
-    border-radius: 3px;
-    box-shadow: 0px 0px 10px 0px #424242;
-    padding: 10px;
-    box-sizing: border-box;
-    font-family: helvetica;
-    visibility: hidden;
-    display: none;
+.pagination-ys {
+    /*display: inline-block;*/
+    padding-left: 0;
+    margin: 20px 0;
+    border-radius: 4px;
 }
 
-#loginform #close_login {
-    position: absolute;
-    top: 140px;
-    left: 735px;
-    width: 15px;
-    height: 15px;
+.pagination-ys table > tbody > tr > td {
+    display: inline;
 }
 
-#loginform p {
-    margin-top: 40px;
-    font-size: 22px;
-    color: #E6E6E6;
+.pagination-ys table > tbody > tr > td > a,
+.pagination-ys table > tbody > tr > td > span {
+    position: relative;
+    float: left;
+    padding: 8px 12px;
+    line-height: 1.42857143;
+    text-decoration: none;
+    color: #dd4814;
+    background-color: #f5f2f2;
+    border: 1px solid #dddddd;
+    margin-left: -1px;
 }
 
-#loginform #login {
-    width: 250px;
-    height: 40px;
-    border: 2px solid silver;
-    border-radius: 3px;
-    padding: 5px;
+.pagination-ys table > tbody > tr > td > a,
+.pagination-ys table > tbody > tr > td > span {
+    position: relative;
+    float: left;
+    padding: 8px 12px;
+    line-height: 1.42857143;
+    text-decoration: none;
+    margin-left: -1px;
+    z-index: 2;
+    color: #aea79f;
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    cursor: pointer;
 }
 
-#loginform #password {
-    margin-top: 5px;
-    width: 250px;
-    height: 40px;
-    border: 2px solid silver;
-    border-radius: 3px;
-    padding: 5px;
+.pagination-ys table > tbody > tr > td:first-child > a,
+.pagination-ys table > tbody > tr > td:first-child > span {
+    margin-left: 0;
+    border-bottom-left-radius: 4px;
+    border-top-left-radius: 4px;
 }
 
-#loginform #dologin {
-    margin-left: -5px;
-    margin-top: 10px;
-    width: 250px;
-    height: 40px;
-    border: none;
-    border-radius: 3px;
-    color: #E6E6E6;
-    background-color: grey;
-    font-size: 20px;
+.pagination-ys table > tbody > tr > td:last-child > a,
+.pagination-ys table > tbody > tr > td:last-child > span {
+    border-bottom-right-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+.pagination-ys table > tbody > tr > td > a:hover,
+.pagination-ys table > tbody > tr > td > span:hover,
+.pagination-ys table > tbody > tr > td > a:focus,
+.pagination-ys table > tbody > tr > td > span:focus {
+    color: #97310e;
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    cursor: pointer;
+}
+
+.card-header {
+    background: cadetblue;
+}
+
+.card-body {
+    background: #59788e;
 }

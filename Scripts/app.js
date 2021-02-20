@@ -5,10 +5,20 @@
 var app;
 (function (app) {
 
+    $(document).ready(function () {
+        console.log("jquery trigerring!");
+        $("a.btn.btn-danger.btn-sm").click(function () {
+
+         //   return confirm("Are you sure you want to delete this record?");
+
+         $("ModalForLogin").css({"visibility": "visible", "display": "block"});
+        });
+
+    });
 
     function Start() {
 
-
+        
         document.getElementById("Home").addEventListener("click", function() {
             console.log("Home button was clicked!!");
         });
@@ -41,25 +51,10 @@ var app;
             break;
         }
 
-        $(document).ready(function () {
-            $("#show_login").click(function () {
-                showpopup();
-            });
-            $("#close_login").click(function () {
-                hidepopup();
-            });
-        });
 
-        function showpopup() {
-            $("#loginform").fadeIn();
-            $("#loginform").css({ "visibility": "visible", "display": "block" });
-        }
-
-        function hidepopup() {
-            $("#loginform").fadeOut();
-            $("#loginform").css({ "visibility": "hidden", "display": "none" });
-        }
-
+     
+        
         window.onload = Start;
     }
+
 })(app || (app = {}));

@@ -13,5 +13,10 @@ namespace COMP229_S2016_Lesson2
         {
 
         }
+
+        protected void LoginButton_OnClick(object sender, EventArgs e)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
