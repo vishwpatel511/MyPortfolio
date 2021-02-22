@@ -5,11 +5,22 @@
     <div class="container">
         <div class="row">
             <div class="col-md-offset-1 col-md-12" style="left: 0px; top: 40px; height: 159px">
+                <div class="control-label">
+                    <label for="PageSizeDropDownList">Records per Page:</label>
+                    <asp:DropDownList ID="PageSizeDropDownList" runat="server"
+                                      AutoPostBack="true" CssClass="btn btn-default btn-sm dropdown-toggle"
+                                      OnSelectedIndexChanged="PageSizeDropDown_SelectedIndexChanged">       
+                        <asp:ListItem Text="3" Value="3" runat="server"></asp:ListItem>
+                        <asp:ListItem Text="5" Value="5" runat="server"></asp:ListItem>
+                        <asp:ListItem Text="10" Value="10" runat="server"></asp:ListItem>
+                        <asp:ListItem Text="1000" Value="1000" runat="server"></asp:ListItem>
 
 
-
+                    </asp:DropDownList>
+                </div>
+                <br><br>
                 <asp:GridView ID="ProjectsGridView" runat="server" AutoGenerateColumns="False"
-                    CssClass="table table-bordered" DataKeyNames="ProjectID" Height="163px" OnRowDeleting="ProjectsGridView_RowDeleting">
+                    CssClass="table table-bordered" DataKeyNames="ProjectID" Height="163px" AllowPagining="true" PageSize="5" OnSorting="ProjectsGridView_Sorting" OnRowDataBound="ProjectsGridView_RowDataBound" OnRowDeleting="ProjectsGridView_RowDeleting">
 
                     <Columns>
                         <asp:BoundField DataField="projectID" HeaderText="Project ID " Visible="True" />
@@ -26,12 +37,11 @@
                     Want to list a project I worked for/with you?  <a href="~/AddProject.aspx" class="btn btn-success btn-sm" runat="server">
                         <i class="fa fa-plus">Add project</i>
                     </a>
-                    </p>
-                    
-                                </div>
-                            </div>
-                        </div>
+                </p>
+
+            </div>
+        </div>
+    </div>
     <br>
-                <br>
-    
+    <br>
 </asp:Content>
