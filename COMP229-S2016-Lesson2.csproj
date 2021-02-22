@@ -320,6 +320,7 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Assets\images\" />
+    <Folder Include="Secure\" />
   </ItemGroup>
   <ItemGroup>
     <TypeScriptCompile Include="Scripts\index.d.ts" />

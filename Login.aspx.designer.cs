@@ -33,13 +33,13 @@ namespace COMP229_S2016_Lesson2
         protected global::System.Web.UI.WebControls.Label StatusLabel;
 
         /// <summary>
-        /// UserNameTextBox control.
+        /// LoginUserNameTextBox control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox UserNameTextBox;
+        protected global::System.Web.UI.WebControls.TextBox LoginUserNameTextBox;
 
         /// <summary>
         /// PasswordTextBox control.
@@ -78,49 +78,58 @@ namespace COMP229_S2016_Lesson2
         protected global::System.Web.UI.WebControls.Label Label1;
 
         /// <summary>
-        /// FirstNameTextBox control.
+        /// Reg_FirstNameTextBox control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox FirstNameTextBox;
+        protected global::System.Web.UI.WebControls.TextBox Reg_FirstNameTextBox;
 
         /// <summary>
-        /// LastNameTextBox control.
+        /// Reg_LastNameTextBox control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox LastNameTextBox;
+        protected global::System.Web.UI.WebControls.TextBox Reg_LastNameTextBox;
 
         /// <summary>
-        /// PhoneNumberTextBox control.
+        /// Reg_PhoneNumberTextBox control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox PhoneNumberTextBox;
+        protected global::System.Web.UI.WebControls.TextBox Reg_PhoneNumberTextBox;
 
         /// <summary>
-        /// EmailTextBox control.
+        /// Reg_EmailTextBox control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox EmailTextBox;
+        protected global::System.Web.UI.WebControls.TextBox Reg_EmailTextBox;
 
         /// <summary>
-        /// PasswordTextBox1 control.
+        /// UserNameTextBox control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox PasswordTextBox1;
+        protected global::System.Web.UI.WebControls.TextBox UserNameTextBox;
+
+        /// <summary>
+        /// Reg_PasswordTextBox control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox Reg_PasswordTextBox;
 
         /// <summary>
         /// ConfirmPasswordTextBox control.
@@ -132,12 +141,12 @@ namespace COMP229_S2016_Lesson2
         protected global::System.Web.UI.WebControls.TextBox ConfirmPasswordTextBox;
 
         /// <summary>
-        /// Button13 control.
+        /// RegisterButton control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button13;
+        protected global::System.Web.UI.WebControls.Button RegisterButton;
     }
 }
